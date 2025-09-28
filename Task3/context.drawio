@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5">
+  <diagram name="Контекст C4 - Умный дом" id="L-aW5-xY6cZ3jK4p9B8o">
+    <mxGraphModel dx="2011" dy="2133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SBP8TcLjgnE3VUIizdY4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="C4_Context_-PropDev_SmartHome-4" target="C4_Context_-PropDev_SmartHome-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="280" />
+              <mxPoint x="230" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBP8TcLjgnE3VUIizdY4-5" value="Отправляет команды на открытие/закрытие,&amp;nbsp;&lt;br&gt;управляет списками доступа (лица, номера авто)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBP8TcLjgnE3VUIizdY4-4">
+          <mxGeometry x="0.0222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C4_Context_-PropDev_SmartHome-4" value="Система PropDevelopment&lt;br&gt;&lt;br&gt;Предоставляет собственникам единый интерфейс для управления услугами, включая сервисы &#39;Умного дома&#39;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;strokeWidth=2;fillColor=#10739E;fontColor=#ffffff;strokeColor=#0d5a7d;" parent="1" vertex="1">
+          <mxGeometry x="290" y="220" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C4_Context_-PropDev_SmartHome-6" value="Платформа &#39;Умный дом&#39; Партнёра" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;strokeWidth=2;fillColor=#828282;fontColor=#ffffff;strokeColor=#4F4F4F;" parent="1" vertex="1">
+          <mxGeometry x="290" y="480" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C4_Context_-PropDev_SmartHome-7" value="Предоставляет API для управления интеллектуальным домофоном (биометрия) и шлагбаумом (распознавание номеров)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="660" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C4_Context_-PropDev_SmartHome-8" value="Управляет доступом в дом и на территорию через мобильное приложение" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SBP8TcLjgnE3VUIizdY4-3" target="C4_Context_-PropDev_SmartHome-4" edge="1">
+          <mxGeometry x="-0.1255" y="2" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="280" as="sourcePoint" />
+            <mxPoint x="200" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C4_Context_-PropDev_SmartHome-10" value="Присылает уведомления о событиях&amp;nbsp;&lt;br&gt;(вход, попытка доступа)" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C4_Context_-PropDev_SmartHome-6" target="C4_Context_-PropDev_SmartHome-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="330" as="sourcePoint" />
+            <mxPoint x="540" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="520" />
+              <mxPoint x="580" y="310" />
+              <mxPoint x="580" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBP8TcLjgnE3VUIizdY4-3" value="Мобильное приложение для собственников" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-20" width="254" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
